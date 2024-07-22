@@ -1,0 +1,18 @@
+<div class="delete-paying-modal">
+    <h1 class="delete-paying-modal-title" mat-dialog-title>Delete payment</h1>
+    <div mat-dialog-content>
+      <form>
+        <label class="delete-paying-modal-label">Select payment to delete</label>
+        <select class="delete-paying-modal-input" [ngModelOptions]="{standalone: true}" [(ngModel)]="data.chosenName">
+          <option *ngFor="let payingName of data.payingNames" value="{{payingName}}">
+            {{payingName}}
+          </option>
+        </select>
+      </form>
+    </div>
+    <div class="delete-paying-modal-buttons" mat-dialog-actions>
+      <button mat-button (click)="this.onDeleteClick()" mat-dialog-close>Delete</button>
+      <button mat-button (click)="this.onCancelClick()" mat-dialog-close cdkFocusInitial>Cancel</button>
+    </div>
+  </div>
+  

@@ -1,0 +1,50 @@
+<div class="header"><h1 style="text-align: center">My Wallet</h1></div>
+
+<mat-sidenav-container>
+  <mat-sidenav #sidenav="matSidenav" class="mat-elevation-z8">
+    <img class="avatar mat-elevation-z8" src="/assets/wallet.png" />
+
+    <h4 class="name">My Wallet</h4>
+    <p class="designation">Your personal accountant</p>
+
+    <mat-divider></mat-divider>
+
+    <button mat-button class="menu-button" routerLink="/dashboard">
+      <span>Dashboard</span>
+    </button>
+    <button mat-button class="menu-button" routerLink="/payments_earnings">
+      <span>Payments</span>
+    </button>
+    <button
+      mat-button
+      class="menu-button"
+      routerLink="/recurrent_payments_earnings"
+    >
+      <span>Earnings</span>
+    </button>
+    <button mat-button class="menu-button" routerLink="/reports">
+      <span>Reports</span>
+    </button>
+    <button mat-button class="menu-button" routerLink="/profile">
+      <span>Profile</span>
+    </button>
+    <button mat-button class="menu-button" routerLink="/logout">
+      <span>Logout</span>
+    </button>
+
+    <mat-divider></mat-divider>
+
+    <button mat-button class="menu-button" routerLink="/about">
+      <span>About</span>
+    </button>
+    <button mat-button class="menu-button" routerLink="/help">
+      <span>Help</span>
+    </button>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div class="content mat-elevation-z8">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+<div class="footer">I am the footer</div>

@@ -1,0 +1,16 @@
+.balance {
+  background-color:#9fa9a3;
+  height: 90px;
+  width: 100%;
+  text-align: center;
+  color: rgb(105, 79, 79);
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 30px;
+  
+  /* padding-top: 0px;
+  padding-bottom: 0px; */
+  border-radius: 5px;
+  border: solid rgb(137, 142, 137) 2px;
+  position: relative;
+}

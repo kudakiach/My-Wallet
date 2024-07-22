@@ -1,0 +1,33 @@
+.delete-paying-modal {
+    background-color: #e3e0cc;
+    color: rgb(105, 79, 79);
+    border: solid #bcb9a3 2px;
+    border-radius: 5px;
+  }
+  
+  .delete-paying-modal-title {
+    text-align: center;
+  }
+  
+  .delete-paying-modal-label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    width: 200px;
+  }
+  
+  .delete-paying-modal-input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+    width: 300px;
+  }
+  
+  .delete-paying-modal-buttons {
+    margin-left: 200px;
+    margin-bottom: 10px;
+    align-items: baseline;
+    text-align: center;
+  }
+  
+  

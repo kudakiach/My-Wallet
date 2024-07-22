@@ -1,0 +1,43 @@
+<!-- <p>login works!</p> -->
+
+<div class="container-fluid component_defaults">
+    <div class="row mt-5">  
+        <div class="col-12">  
+            <div class="col-8">   
+                <div class="card-shadow">   
+                    <div class="card-body"> 
+                        <form>
+                            <div class="mb-3">
+                                <h4 class = "text-dark text-muted" id="login">Login</h4>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Email address</label>
+                              <input type="email" class="form-control" name = "email" [(ngModel)] = "email">
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                              <input type="password" class="form-control" name = "password" [(ngModel)] = "password">
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <button type="button" class="btn" (click)= "login()">Login</button>
+                                </div>
+                                <div class="col-6">
+                                    <button type="button" class="btn" (click)= "loginWithGoogle()">Login with Google</button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <a href="/register" class="text" style = "text-decoration: none;">Need Account? Register!</a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="/forgotpassword" class = "text" style = "text-decoration: none;">Forgot Password ?</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

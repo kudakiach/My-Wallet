@@ -1,0 +1,39 @@
+.list_container {
+  border: solid rgb(137, 142, 137) 2px;
+  border-radius: 5px;
+}
+
+.list_header {
+  background: #9fa9a3;
+  height: 30px;
+}
+
+.odd_list_line {
+  background-color: #e3e0cc;
+  height: 30px;
+}
+
+.even_list_line {
+  background-color: #f0f0f0;
+  height: 30px;
+}
+
+.btn {
+  background: #9fa9a3;
+  border: solid rgb(137, 142, 137) 2px;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 30px;
+  color: rgb(105, 79, 79);
+}
+
+.button-container {
+  margin: 25px;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+}
+
+

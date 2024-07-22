@@ -1,0 +1,18 @@
+<div class="delete-earning-modal">
+    <h1 class="delete-earning-modal-title" mat-dialog-title>Delete earning</h1>
+    <div mat-dialog-content>
+      <form>
+        <label class="delete-earning-modal-label">Select earning to delete</label>
+        <select class="delete-earning-modal-input" [ngModelOptions]="{standalone: true}" [(ngModel)]="data.chosenName">
+          <option *ngFor="let earningName of data.earningNames" value="{{earningName}}">
+            {{earningName}}
+          </option>
+        </select>
+      </form>
+    </div>
+    <div class="delete-earning-modal-buttons" mat-dialog-actions>
+      <button mat-button (click)="this.onDeleteClick()" mat-dialog-close>Delete</button>
+      <button mat-button (click)="this.onCancelClick()" mat-dialog-close cdkFocusInitial>Cancel</button>
+    </div>
+  </div>
+  

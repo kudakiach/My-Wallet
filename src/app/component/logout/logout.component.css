@@ -1,0 +1,26 @@
+
+ .btn-info {
+    background-color: #9fa9a3;
+    border: solid #9caaa3;
+} 
+.btn-info :focus {
+    background-color: #9fa9a3;
+}
+.row {
+    height: auto;
+    color: #3a1717;
+}
+
+/* .col-6 {
+    background-color: green;
+} */
+
+/* .mb-3 {
+    background-color: blueviolet;
+}  */
+
+.text {
+    color: #723e3e;
+   
+}
+ 

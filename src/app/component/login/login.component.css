@@ -1,0 +1,26 @@
+
+ .btn {
+    background-color: #9fa9a3;
+    border: solid #9caaa3;
+    
+} 
+.btn-info :focus {
+    background-color: #9fa9a3;
+}
+/* .row {
+    height: auto;
+    color: #723e3e;
+} */
+.text {
+    color: #723e3e;
+}
+ 
+#login {
+    margin: 0;
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  
+  }

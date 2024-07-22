@@ -1,0 +1,21 @@
+form {
+    background-color:#9fa9a3;
+    text-align: center;
+    color: rgb(105, 79, 79);
+    margin: 20px; 
+    border-radius: 10px;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.card-body {
+    background: #9fa9a3;
+    border: solid rgb(137, 142, 137) 2px;
+    border-radius: 5px;
+    width: auto;
+    height: 500px;
+}
+

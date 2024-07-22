@@ -1,0 +1,33 @@
+.add-paying-modal {
+    background-color: #e3e0cc;
+    color: rgb(105, 79, 79);
+    border: solid #bcb9a3 2px;
+    border-radius: 5px;
+  }
+  
+  .add-paying-modal-title {
+    text-align: center;
+  }
+  
+  .add-paying-modal-label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    width: 100px;
+  }
+  
+  .add-paying-modal-input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+    width: 300px;
+  }
+  
+  .add-paying-modal-buttons {
+    margin-left: 200px;
+    margin-bottom: 10px;
+    align-items: baseline;
+    text-align: center;
+  }
+  
+  

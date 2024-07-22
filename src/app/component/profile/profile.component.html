@@ -1,0 +1,32 @@
+<div class="container-fluid">
+    <div class="row mt-5">
+        <div class="col"></div>
+        <div class="col-8">
+            <div class="card shadow">
+                <div class="card-body">
+                    <form>
+                        <div class="mb-3">
+                            <h4 class="text-dark text-muted" id="profile">Profile</h4>
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputFirstName" class="form-label">First Name</label>
+                            <input type="text" id="inputFirstName" class="form-control" name="firstName" [(ngModel)]="firstName" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputLastName" class="form-label">Last Name</label>
+                            <input type="text" id="inputLastName" class="form-control" name="lastName" [(ngModel)]="lastName" />
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <button type="button" class="btn" (click)="updateProfile()">
+                                    Update Profile
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col"></div>
+    </div>
+</div>

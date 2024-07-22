@@ -1,0 +1,13 @@
+h1 { text-align: center;}
+
+.chart-controller-label {
+  width: 120px;
+}
+
+.chart-input-invisible {
+  display: none;
+}
+
+.chart-input-visible {
+  display: inherit;
+}

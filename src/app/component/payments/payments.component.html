@@ -1,0 +1,25 @@
+<app-balance></app-balance>
+<div class="total-payments">
+  <p>Total Payments: - ${{ totalPayments }}</p>
+</div>
+
+<h1>Payments</h1>
+<div class="button-container">
+    <button class="btn mr-3" (click)="this.onAddNewPayment()">
+      Add new payment
+    </button>
+    <button class="btn mr-3" (click)="this.onDeletePaying()">
+      Delete existing payment
+    </button>
+</div>
+<div class="list_container">
+  <mat-grid-list cols="40" rowHeight="30px">
+    <mat-grid-tile
+      *ngFor="let tile of tiles"
+      [colspan]="tile.cols"
+      [ngClass]="tile.cssClass"
+    >
+      {{tile.content}}
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>

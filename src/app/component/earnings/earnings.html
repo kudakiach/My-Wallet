@@ -1,0 +1,32 @@
+<app-balance></app-balance>
+<div class="total-payments">
+  <p>Total Earnings: + ${{ totalEarnings }}</p>
+</div>
+<h1>Earnings</h1>
+<div class="button-container">
+    <button class="btn mr-3" (click)="this.onAddNewEarning()">
+      Add new earning
+    </button>
+    <button class="btn mr-3" (click)="this.onDeleteEarning()">
+      Delete existing earning
+    </button>
+    <button class="btn mr-3" (click)="this.onAddNewEarning()">
+      Total
+    </button>
+</div>
+
+<div class="list_container">
+  <mat-grid-list cols="40" rowHeight="30px">
+    <mat-grid-tile
+      *ngFor="let tile of tiles"
+      [colspan]="tile.cols"
+      [ngClass]="tile.cssClass"
+    >
+      {{tile.content}}
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
+
+
+
+

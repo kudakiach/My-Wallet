@@ -1,0 +1,101 @@
+mat-toolbar {
+    background: #77a8a8;
+    color: white;
+}
+  
+mat-sidenav {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 350px;
+    height: calc(97vh - 146px);
+    border-right: none;
+    background: #9fa9a3;
+    color: white;
+    border-radius: 10px;
+    padding: 16px;
+    text-align: center;
+}
+
+.content {
+    background-color: #c5d5c5;
+    height: calc(97vh - 146px);
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-right: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 16px;
+    overflow: auto;
+    color: rgb(105, 79, 79);
+}
+
+mat-sidenav-container {
+    height: calc(97vh - 130px);
+    
+}
+
+.menu-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    mat-icon {
+    margin-right: 8px;
+    }
+    color: rgb(105, 79, 79);
+}
+
+.avatar {
+    margin-top: 16px;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.name {
+    margin-top: 8px;
+    font-weight: normal;
+    color: rgb(105, 79, 79);
+}
+
+.designation {
+    margin-top: 2px;
+    font-size: 0.7rem;
+    color: rgb(105, 79, 79);
+}
+
+mat-divider {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.footer {
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 10px;
+    height: 90px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    color: rgb(105, 79, 79);
+    font-size: large;
+    text-align: center;
+    height: auto;
+    
+}
+
+.header {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 100px;
+    padding: 10px;
+    background-color: #e3e0cc;
+    color: rgb(105, 79, 79);
+}
+

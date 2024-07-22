@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "my-wallet-system": {
+      "hosting": {
+        "firebase-angular-crud": [
+          "my-wallet-system"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "my-wallet-system"
+  }
+}

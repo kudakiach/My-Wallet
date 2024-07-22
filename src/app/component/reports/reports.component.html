@@ -1,0 +1,36 @@
+<app-balance></app-balance>
+<h1>Reports</h1>
+<div class="chart-controller">
+  <div class="chart-report">
+    <form>
+      <label class="chart-controller-label">Choose report:</label>
+      <select class="chart-report-selector" [value]="0" name="reportType" [(ngModel)]="reportType" (change)="onReportTypeChange()">
+        <option value="0">Annual report</option>
+        <option value="1">Monthly report</option>
+      </select>  
+    </form>
+  </div>
+  <div id="inputYear" class="chart-input-visible">
+    <form>
+      <label class="chart-controller-label">Select year:</label>
+     <select class="chart-year-selector" [value]="2023" name="year" [(ngModel)]="year" (change)="onYearChange()"> -->
+        <option value="2025">2025</option>
+        <option value="2024">2024</option>
+        <option value="2023">2023</option>
+        <option value="2022">2022</option>
+        <option value="2021">2021</option>
+        <option value="2020">2020</option>
+      </select>     
+    </form>
+  </div>
+  <div id="inputYearMonth" class="chart-input-invisible">
+    <form>
+      <label class="chart-controller-label">Select month:</label>
+      <input class="chart-yearmonth-selector" type="month" name="yearMonth" value="2023-01" [(ngModel)]="yearMonth" (change)="onYearMonthChange()" />
+    </form>
+  </div>
+</div>
+<div class="chart-container">
+  <canvas id="BarChart" >{{ chart }}
+  </canvas>
+</div>
